@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  background-color: #edf1fd;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px 75px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 130px;
+  margin-top: 20px;
+}
+
+.navigation-bar ul {
+  display: flex;
+  gap: 60px;
+}
+
+.navigation-bar ul li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.search-bar input {
+  width: 180px;
+  height: 32px;
+  font-size: 17px;
+  padding: 4px 10px;
+  margin-right: 25px;
+}
+
+.search-bar button {
+  background-color: rgb(18, 155, 155);
+  padding: 4px 10px;
+  width: 80px;
+  height: 32px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: 700;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left-side-section h1 {
+  font-weight: 800;
+  font-size: 38px;
+  margin-bottom: 16px;
+}
+
+.left-side-section h1 span {
+  color: rgb(18, 155, 155);
+  font-weight: 900;
+  background-color: #dfdfe0;
+  padding: 0 15px;
+}
+
+.left-side-section p {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.left-side-section p span {
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(18, 155, 155);
+}
+
+.right-side-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+
+.right-side-section button {
+  background-color: rgb(18, 155, 155);
+  padding: 4px 10px;
+  cursor: pointer;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  font-weight: 700;
+  width: fit-content;
+}
+
+.right-side-section img {
+  height: 300px;
+  width: 335px;
+  border-radius: 50%;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left-side p {
+  margin-left: 70px;
+}
+
+.footer-right-side ul {
+  display: flex;
+  gap: 50px;
+  margin-right: 80px;
+}
+
+.footer-right-side ul li {
+  list-style: none;
+  cursor: pointer;
+}
+
+.footer-right-side ul li a i {
+  color: black;
+  font-size: 25px;
+}
+/* body::-webkit-scrollbar{
+    display: none;
+  } */
